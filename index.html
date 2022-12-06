@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="title-home">
+        <h3>HOME</h3>
+      </div>
+      <div class="score-home">
+        <span id="homeCounter">0</span>
+      </div>
+      <div class="add-points-btns-home">
+        <button id="increment-btn" class="plus plus-one-home" onclick="homeIncrement1()">+1</button>
+        <button id="increment-btn" class="plus plus-two-home" onclick="homeIncrement2()">+2</button>
+        <button id="increment-btn" class="plus plus-three-home" onclick="homeIncrement3()">+3</button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="title-guest">
+        <h3>GUEST</h3>
+      </div>
+      <div class="score-guest">
+        <span id="guestCounter">0</span>
+      </div>
+      <div class="add-points-btns-guest">
+        <button onclick="guestIncrement1()" class="plus plus-one-guest">+1</button>
+        <button onclick="guestIncrement2()" class="plus plus-two-guest">+2</button>
+        <button onclick="guestIncrement3()" class="plus plus-three-guest">+3</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="index.js"></script>
+</body>
+
+</html>
