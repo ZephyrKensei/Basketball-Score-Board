@@ -5,6 +5,10 @@
   src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
 }
 
+body {
+  background-color: lightgray;
+}
+
 .container {
   height: 385px;
   width: 575px;
@@ -15,6 +19,7 @@
   align-content: center;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
 }
 
 .wrapper {
